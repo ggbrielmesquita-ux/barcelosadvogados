@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barcelos Advogados | Direito Previdenciário e Trabalhista</title>
+  <meta name="description" content="Barcelos Advogados – Escritório especializado em Direito Previdenciário e Trabalhista com mais de 20 anos de experiência e mais de 3.000 processos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <a href="#home" class="navbar__logo">
+        <svg class="logo-svg" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="20" y1="6" x2="20" y2="36"/>
+          <line x1="8" y1="36" x2="32" y2="36"/>
+          <line x1="9" y1="14" x2="31" y2="14"/>
+          <circle cx="20" cy="10" r="2.5" fill="currentColor" stroke="none"/>
+          <path d="M9 14 L4 24 H14 Z"/>
+          <path d="M31 14 L36 24 H26 Z"/>
+        </svg>
+        <span class="logo-text">Barcelos <span class="logo-accent">Advogados</span></span>
+      </a>
+
+      <nav class="navbar__nav" id="nav-menu">
+        <a href="#areas" class="nav-link">Áreas de Atuação</a>
+        <a href="#about" class="nav-link">Escritório</a>
+        <a href="#faq" class="nav-link">FAQs</a>
+        <a href="#contact" class="nav-link nav-link--cta">Contato</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__grid-bg"></div>
+
+    <div class="hero__orb hero__orb--1"></div>
+    <div class="hero__orb hero__orb--2"></div>
+
+    <div class="container hero__content">
+
+      <div class="hero__eyebrow">
+        <span class="eyebrow-line"></span>
+        <span class="eyebrow-text">Escritório de Advocacia Especializado</span>
+      </div>
+
+      <h1 class="hero__title">
+        Defendemos seus direitos<br />
+        com <em>excelência jurídica</em><br />
+        e dedicação total
+      </h1>
+
+      <p class="hero__sub">
+        Mais de <strong>20 anos</strong> de especialização em Direito Previdenciário e Trabalhista.
+        Mais de <strong>3.000 processos</strong> conduzidos com ética e transparência.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.08 5.18 2 2 0 015 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 18v-.08z"/></svg>
+          Fale Conosco
+        </a>
+        <a href="#areas" class="btn btn--ghost">
+          Nossas Especialidades
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">20<span class="stat__plus">+</span></span>
+          <span class="stat__label">Anos de Experiência</span>
+        </div>
+        <div class="stat__sep"></div>
+        <div class="stat">
+          <span class="stat__num">3.000<span class="stat__plus">+</span></span>
+          <span class="stat__label">Processos Representados</span>
+        </div>
+        <div class="stat__sep"></div>
+        <div class="stat">
+          <span class="stat__num">100<span class="stat__plus">%</span></span>
+          <span class="stat__label">Compromisso com o Cliente</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       ÁREAS DE ATUAÇÃO
+  ══════════════════════════════════════════ -->
+  <section class="areas section" id="areas">
+    <div class="container">
+
+      <div class="section-head">
+        <span class="section-tag">Especialidades</span>
+        <h2 class="section-title">Áreas de Atuação</h2>
+        <p class="section-sub">Atendimento especializado nas principais demandas do direito previdenciário e trabalhista, com foco no resultado que você merece.</p>
+      </div>
+
+      <div class="tabs">
+        <button class="tab-btn tab-btn--active" data-tab="prev">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+            <line x1="12" y1="2" x2="12" y2="22"/><path d="M5 22h14"/><line x1="5" y1="8" x2="19" y2="8"/>
+            <path d="M3 12h4l-2-4-2 4z"/><path d="M21 12h-4l2-4 2 4z"/>
+          </svg>
+          Direito Previdenciário
+        </button>
+        <button class="tab-btn" data-tab="trab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/>
+            <line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/>
+          </svg>
+          Direito Trabalhista
+        </button>
+      </div>
+
+      <!-- TAB PREVIDENCIÁRIO -->
+      <div class="tab-panel tab-panel--active" id="tab-prev">
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 16h5l3-9 4 18 3-11 2 2h5" data-anim/>
+              </svg>
+            </div>
+            <h3>Auxílio-Doença e Acidente</h3>
+            <p>Representação para concessão de auxílio-doença e auxílio-acidente junto ao INSS, garantindo todos os seus direitos.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="16" cy="6" r="3" data-anim/>
+                <path d="M10 13l-2 7h5l1 8M22 13l2 7h-5M12 20l4 8" data-anim/>
+                <path d="M10 13c0 0 2-2 6-2s6 2 6 2" data-anim/>
+              </svg>
+            </div>
+            <h3>Aposentadoria por Invalidez</h3>
+            <p>Assessoria completa para segurados que perderam a capacidade laboral e necessitam do benefício por incapacidade permanente.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="5" width="24" height="22" rx="2" data-anim/>
+                <line x1="4" y1="12" x2="28" y2="12" data-anim/>
+                <line x1="11" y1="2" x2="11" y2="8" data-anim/>
+                <line x1="21" y1="2" x2="21" y2="8" data-anim/>
+                <path d="M11 19l3 3 6-6" data-anim/>
+              </svg>
+            </div>
+            <h3>Aposentadorias Programadas</h3>
+            <p>Por tempo de contribuição, por idade e especial — planejamos o melhor momento e estratégia para sua aposentadoria.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 3L28 9v8c0 7-5 12-12 14C9 29 4 24 4 17V9L16 3z" data-anim/>
+                <path d="M11 16l3 3 6-6" data-anim/>
+              </svg>
+            </div>
+            <h3>Aposentadoria Especial</h3>
+            <p>Para trabalhadores expostos a agentes nocivos à saúde que garantem redução no tempo de contribuição exigido.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 16c0-3 3-5 6-4s5-1 5-4V6" data-anim/>
+                <path d="M26 16c0-3-3-5-6-4s-5-1-5-4" data-anim/>
+                <path d="M3 26c2-3 5-4 7-4h12c2 0 5 1 7 4" data-anim/>
+              </svg>
+            </div>
+            <h3>Benefício Assistencial – LOAS</h3>
+            <p>Assistência na concessão do BPC/LOAS para idosos e pessoas com deficiência em situação de vulnerabilidade social.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="8" r="3" data-anim/>
+                <circle cx="21" cy="8" r="3" data-anim/>
+                <path d="M5 29v-3a6 6 0 016-6h10a6 6 0 016 6v3" data-anim/>
+                <line x1="16" y1="3" x2="16" y2="29" data-anim/>
+              </svg>
+            </div>
+            <h3>Pensão por Morte</h3>
+            <p>Orientação e representação dos dependentes para obtenção da pensão por morte junto ao INSS ou RPPS.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M28 6v7h-7" data-anim/>
+                <path d="M4 26v-7h7" data-anim/>
+                <path d="M6.34 12a11 11 0 0118.54-3.6L28 13M4 19l3.12 4.6A11 11 0 0025.66 20" data-anim/>
+              </svg>
+            </div>
+            <h3>Revisões de Aposentadoria</h3>
+            <p>Análise detalhada para identificar possibilidades de revisão e aumento do benefício já concedido, incluindo a Revisão da Vida Toda.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="16" cy="8" r="4" data-anim/>
+                <path d="M8 28v-3a8 8 0 018-8v0a8 8 0 018 8v3" data-anim/>
+                <circle cx="24" cy="13" r="2.5" data-anim/>
+                <path d="M27 26v-1.5a3.5 3.5 0 00-3.5-3.5" data-anim/>
+              </svg>
+            </div>
+            <h3>Salário-Maternidade</h3>
+            <p>Garantia do salário-maternidade para trabalhadoras que tiveram o benefício negado ou calculado incorretamente.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="7" y="14" width="18" height="14" rx="2" data-anim/>
+                <path d="M11 14V9a5 5 0 0110 0v5" data-anim/>
+                <circle cx="16" cy="21" r="1.5" fill="currentColor" stroke="none"/>
+                <line x1="16" y1="22.5" x2="16" y2="25" data-anim/>
+              </svg>
+            </div>
+            <h3>Auxílio-Reclusão</h3>
+            <p>Orientação e defesa dos dependentes de segurados de baixa renda que estão presos no regime fechado.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TAB TRABALHISTA -->
+      <div class="tab-panel" id="tab-trab">
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 3H8a2 2 0 00-2 2v22a2 2 0 002 2h16a2 2 0 002-2V11z" data-anim/>
+                <polyline points="18 3 18 11 26 11" data-anim/>
+                <path d="M10 19l3 3 7-7" data-anim/>
+              </svg>
+            </div>
+            <h3>Reconhecimento de Vínculo</h3>
+            <p>Todos os seus direitos trabalhistas — férias, 13º, FGTS e horas extras — dependem do reconhecimento do vínculo empregatício. Atuamos para garantir isso.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 4l4 4-13 13-5 1 1-5L19 4z" data-anim/>
+                <line x1="21" y1="2" x2="26" y2="7" data-anim/>
+                <line x1="6" y1="28" x2="26" y2="28" data-anim/>
+              </svg>
+            </div>
+            <h3>Demissão Ilegal</h3>
+            <p>Combatemos demissões sem justa causa, anulamos penalidades injustas e buscamos reintegração ou indenização pelos danos sofridos.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 3L28 26H4L16 3z" data-anim/>
+                <line x1="16" y1="13" x2="16" y2="19" data-anim/>
+                <circle cx="16" cy="22.5" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+            </div>
+            <h3>Insalubridade e Periculosidade</h3>
+            <p>Trabalhadores expostos a agentes químicos, biológicos ou físicos têm direito a adicionais. Fazemos valer esses direitos.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="10" width="26" height="18" rx="2" data-anim/>
+                <path d="M21 10V7a2 2 0 00-2-2h-6a2 2 0 00-2 2v3" data-anim/>
+                <line x1="16" y1="15" x2="16" y2="21" data-anim/>
+                <line x1="13" y1="18" x2="19" y2="18" data-anim/>
+              </svg>
+            </div>
+            <h3>Doenças Ocupacionais</h3>
+            <p>Burnout, LER/DORT, problemas de coluna — garantimos estabilidade no emprego e indenizações por danos morais, materiais e estéticos.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="16" cy="16" r="12" data-anim/>
+                <polyline points="16 9 16 16 21 19" data-anim/>
+                <line x1="24" y1="6" x2="27" y2="3" data-anim/>
+                <line x1="27" y1="3" x2="29" y2="5" data-anim/>
+              </svg>
+            </div>
+            <h3>Horas Extras</h3>
+            <p>Asseguramos o pagamento correto de horas extras e reflexos em INSS, FGTS e adicionais de insalubridade.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 3H8a2 2 0 00-2 2v22a2 2 0 002 2h16a2 2 0 002-2V11z" data-anim/>
+                <polyline points="18 3 18 11 26 11" data-anim/>
+                <line x1="10" y1="17" x2="22" y2="17" data-anim/>
+                <line x1="10" y1="22" x2="16" y2="22" data-anim/>
+                <circle cx="22" cy="22" r="4" data-anim/>
+                <line x1="24.8" y1="24.8" x2="27" y2="27" data-anim/>
+              </svg>
+            </div>
+            <h3>Acordos Trabalhistas</h3>
+            <p><strong>Não assine nada sem um advogado.</strong> Depois que você assina um acordo, não há mais volta. Proteja seus direitos antes de qualquer negociação.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-icon-wrap">
+              <svg class="svc-svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="16" cy="12" r="8" data-anim/>
+                <path d="M10.9 19.1L9 29l7-4 7 4-1.9-9.9" data-anim/>
+              </svg>
+            </div>
+            <h3>Categorias Diferenciadas</h3>
+            <p>Professores, enfermeiros, pilotos e jornalistas possuem legislação específica. Conhecemos profundamente os direitos de cada categoria.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SOBRE O ESCRITÓRIO
+  ══════════════════════════════════════════ -->
+  <section class="about section" id="about">
+    <div class="container about__grid">
+
+      <div class="about__visual">
+        <div class="about__img-wrapper">
+          <div class="about__img-bg">
+            <!-- Decorative SVG Scales -->
+            <svg class="about__deco-svg" viewBox="0 0 200 240" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="100" y1="30" x2="100" y2="210" stroke-width="3"/>
+              <line x1="40" y1="210" x2="160" y2="210" stroke-width="3"/>
+              <line x1="40" y1="80" x2="160" y2="80" stroke-width="3"/>
+              <circle cx="100" cy="55" r="12" stroke-width="2.5"/>
+              <path d="M40 80 L15 130 H65 Z" stroke-width="2" opacity="0.7"/>
+              <path d="M160 80 L135 130 H185 Z" stroke-width="2" opacity="0.7"/>
+              <line x1="60" y1="160" x2="140" y2="160" stroke-width="1.5" opacity="0.5"/>
+              <line x1="70" y1="175" x2="130" y2="175" stroke-width="1.5" opacity="0.4"/>
+              <line x1="80" y1="190" x2="120" y2="190" stroke-width="1.5" opacity="0.3"/>
+            </svg>
+          </div>
+          <div class="about__stat-card">
+            <span class="stat-card-num">3.000<span>+</span></span>
+            <span class="stat-card-label">Processos representados</span>
+          </div>
+        </div>
+        <div class="about__accent-border"></div>
+      </div>
+
+      <div class="about__text">
+        <span class="section-tag">Nosso Escritório</span>
+        <h2 class="section-title about__title">
+          Excelência em Direito<br />
+          <span class="gradient-text">Previdenciário e Trabalhista</span>
+        </h2>
+
+        <p class="about__desc">
+          O escritório <strong>Barcelos Advogados</strong> tem mais de 20 anos de especialização nas áreas previdenciária e trabalhista. Iniciamos com poucos processos e hoje representamos mais de <strong>3.000 clientes</strong> diretamente ligados ao direito previdenciário.
+        </p>
+        <p class="about__desc">
+          Nossa missão é defender trabalhadores e segurados, garantindo todos os seus direitos com uma relação ética, transparente e humanizada. Atuamos junto a pessoas físicas, associações de aposentados e diversas categorias profissionais.
+        </p>
+
+        <ul class="about__pillars">
+          <li>
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Excelência Jurídica</strong>
+              <span>Mais de duas décadas de dedicação ao direito do segurado</span>
+            </div>
+          </li>
+          <li>
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l9 4.5V12c0 5.5-4 9.5-9 11-5-1.5-9-5.5-9-11V6.5L12 2z"/>
+                <path d="M9 12l2 2 4-4"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Ética e Transparência</strong>
+              <span>Relação clara e honesta com cada cliente em todas as etapas</span>
+            </div>
+          </li>
+          <li>
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Foco em Resultados</strong>
+              <span>Estratégia personalizada para maximizar suas chances de êxito</span>
+            </div>
+          </li>
+        </ul>
+
+        <a href="#contact" class="btn btn--primary about__cta">Agende uma Consulta</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FAQ
+  ══════════════════════════════════════════ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Dúvidas Frequentes</span>
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <p class="section-sub">Entenda melhor como funciona nossa atuação e como podemos ajudar você.</p>
+      </div>
+
+      <div class="accordion">
+
+        <div class="accordion__item">
+          <button class="accordion__btn">
+            <span>Como é cobrada a taxa de um advogado previdenciário?</span>
+            <div class="accordion__icon"><span></span><span></span></div>
+          </button>
+          <div class="accordion__body">
+            <p>Na grande maioria dos casos, o advogado previdenciário trabalha com honorários de êxito — ou seja, você só paga se ganhar a causa. O percentual é acordado previamente e incide sobre os valores atrasados reconhecidos pela Justiça. Não há cobrança adiantada de qualquer valor.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__btn">
+            <span>Quais direitos trabalhistas o empregado pode buscar reparação?</span>
+            <div class="accordion__icon"><span></span><span></span></div>
+          </button>
+          <div class="accordion__body">
+            <p>Férias, 13º salário, horas extras, FGTS, adicional de insalubridade e periculosidade, reconhecimento de vínculo, indenização por demissão ilegal, estabilidade em doenças ocupacionais e muito mais. Cada caso é analisado individualmente para identificar todas as verbas devidas.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__btn">
+            <span>Em quais situações o trabalhador pode entrar com ação contra o empregador?</span>
+            <div class="accordion__icon"><span></span><span></span></div>
+          </button>
+          <div class="accordion__body">
+            <p>Sempre que houver violação de direitos trabalhistas: demissão sem justa causa ou sem pagamento correto das verbas rescisórias, não registro em carteira, descumprimento de normas de saúde e segurança, assédio moral ou sexual, não pagamento de horas extras, entre outras situações.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__btn">
+            <span>Como um advogado previdenciário pode ajudar em processos de aposentadoria?</span>
+            <div class="accordion__icon"><span></span><span></span></div>
+          </button>
+          <div class="accordion__body">
+            <p>O advogado analisa todo o histórico contributivo, identifica tempos de serviço não reconhecidos, orienta sobre a melhor modalidade de aposentadoria, recorre de indeferimentos e busca a revisão de benefícios já concedidos com valores inferiores ao devido.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__btn">
+            <span>Quem pode se beneficiar dos serviços de um advogado previdenciário?</span>
+            <div class="accordion__icon"><span></span><span></span></div>
+          </button>
+          <div class="accordion__body">
+            <p>Trabalhadores ativos, desempregados, autônomos, MEIs, doentes, pessoas com deficiência, aposentados, pensionistas, profissionais de saúde, eletricistas, metalúrgicos, portuários, professores e todos que contribuíram ou contribuem para o INSS. Se você já pagou para a Previdência, tem direitos a serem protegidos.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CONTATO — SOMENTE WHATSAPP CTA
+  ══════════════════════════════════════════ -->
+  <section class="contact section" id="contact">
+    <div class="contact__bg-overlay"></div>
+
+    <div class="container contact__grid">
+
+      <!-- INFO -->
+      <div class="contact__info">
+        <span class="section-tag section-tag--light">Entre em Contato</span>
+        <h2 class="contact__title">
+          Fale com um<br />
+          <span class="contact__title-accent">especialista agora</span>
+        </h2>
+        <p class="contact__desc">Não deixe seus direitos esperarem. Nossa equipe está pronta para analisar seu caso sem compromisso.</p>
+
+        <ul class="contact__list">
+          <li>
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .72h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16v-.08z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Telefone</span>
+              <span class="contact-value">(27) 3319-3211</span>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">WhatsApp</span>
+              <span class="contact-value">(27) 9 9909-2998</span>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">E-mail</span>
+              <span class="contact-value">atendimento@barcelosadvogados.com.br</span>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Endereço</span>
+              <span class="contact-value">Av. Henrique Moscoso, 1023, Ed. Central, sala 302<br/>Centro — Vila Velha, ES</span>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Horário de Atendimento</span>
+              <span class="contact-value">Segunda a Sexta — 08h30 às 17h00</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- WHATSAPP CTA -->
+      <div class="wpp-cta">
+        <div class="wpp-cta__icon">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="52" height="52">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+        </div>
+        <h3 class="wpp-cta__title">Atendimento pelo WhatsApp</h3>
+        <p class="wpp-cta__text">Converse diretamente com nossa equipe. Análise do caso sem compromisso e sem custo inicial.</p>
+
+        <a href="https://wa.me/5527999092998?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20do%20escritório%20Barcelos%20Advogados." class="wpp-btn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Iniciar conversa
+        </a>
+
+        <p class="wpp-cta__num">(27) 9 9909-2998</p>
+
+        <div class="wpp-cta__note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Segunda a Sexta, das 08h30 às 17h00
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__brand">
+        <a href="#home" class="navbar__logo footer__logo">
+          <svg class="logo-svg" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="20" y1="6" x2="20" y2="36"/>
+            <line x1="8" y1="36" x2="32" y2="36"/>
+            <line x1="9" y1="14" x2="31" y2="14"/>
+            <circle cx="20" cy="10" r="2.5" fill="currentColor" stroke="none"/>
+            <path d="M9 14 L4 24 H14 Z"/>
+            <path d="M31 14 L36 24 H26 Z"/>
+          </svg>
+          <span class="logo-text">Barcelos <span class="logo-accent">Advogados</span></span>
+        </a>
+        <p>Excelência jurídica com ética e transparência. Seus direitos são nossa causa.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__nav">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#areas">Áreas de Atuação</a></li>
+          <li><a href="#about">Escritório</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__nav">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#areas">Direito Previdenciário</a></li>
+          <li><a href="#areas">Direito Trabalhista</a></li>
+          <li><a href="#areas">Aposentadorias</a></li>
+          <li><a href="#areas">Revisões de Benefícios</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact-col">
+        <h4>Contato</h4>
+        <p>(27) 3319-3211</p>
+        <p>(27) 9 9909-2998</p>
+        <p>atendimento@barcelosadvogados.com.br</p>
+        <p>Av. Henrique Moscoso, 1023<br/>Vila Velha – ES</p>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2024 Barcelos Advogados. Todos os direitos reservados.</p>
+        <p>OAB/ES · Advogados inscritos na Ordem dos Advogados do Brasil</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp FAB -->
+  <a href="https://wa.me/5527999092998" class="wpp-fab" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
